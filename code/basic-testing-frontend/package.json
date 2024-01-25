@@ -6,7 +6,7 @@
 	"type": "module",
 	"scripts": {
 		"test": "jest -u --verbose",
-		"test:watch": "jest -u --watchAll --watchman",
+		"test:watch": "jest -u --verbose --watch",
 		"start": "http-server -c-1"
 	},
 	"keywords": [],
