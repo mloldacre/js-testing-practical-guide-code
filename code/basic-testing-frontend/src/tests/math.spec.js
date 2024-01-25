@@ -26,7 +26,8 @@ it('should yield a correct sum if an array of numeric string values is provided'
 	// *Arrange
 	const textInputs = ['1', '2', '3'];
 	// *Act
-	const expectedResult = numbers.reduce((prevValue, curValue) => +prevValue + +curValue, 0);
+	const expectedResult = textInputs.reduce((prevValue, curValue) => +prevValue + +curValue, 0);
+	const result = add(textInputs);
 	// *Assert
 	expect(result).toBe(expectedResult);
 });
