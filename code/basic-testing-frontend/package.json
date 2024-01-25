@@ -6,7 +6,7 @@
 	"type": "module",
 	"scripts": {
 		"test": "jest -u --verbose",
-		"test:watch": "jest -u --verbose --watch",
+		"test:watch": "jest -u --verbose --watch --testPathIgnorePatterns=/.history",
 		"start": "http-server -c-1"
 	},
 	"keywords": [],
