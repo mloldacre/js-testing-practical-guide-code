@@ -11,7 +11,7 @@ function formSubmitHandler(event) {
 	const result = calculateResult(numberValues);
 	const resultText = generateResultText(result);
 
-	outputResult(resultText);
+	return outputResult(resultText);
 }
 
 form.addEventListener('submit', formSubmitHandler);
